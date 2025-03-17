@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+.tech-stacks-container {
+    padding: 4rem;
+    background-color: #edf6f9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    height: 550px;
+    
+    
+  }
+  .tech-stack-cont{
+    border: 2px solid #222;
+    border-radius: 20px;
+    background-color: rgba(94, 93, 93, 0.1);
+    height: 450px;
+    padding: 2rem;
+
+  }
+  
+  .tech-stacks-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .tech-stacks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .tech-stack-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .tech-stack-item:hover {
+    transform: scale(1.1);
+  }
+  .tech-stack-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    background-color: #f9f8f6;
+  }
+  
+  
+  .tech-stack-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
+  }
+  
+  .tech-stack-name {
+    font-size: 1.3rem;
+    color: #222;
+    margin-top: 0.5rem;
+  }
+  /*
+  @keyframes lights {
+    0% {
+      color: hsl(240, 2%, 35%);
+      text-shadow:
+        0 0 1em hsla(336, 71%, 18%, 0.2),
+        0 0 0.125em hsla(320, 50%, 26%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(210, 2%, 17%);
+      text-shadow:
+        0 0 1em hsla(320, 41%, 26%, 0.5),
+        0 0 0.125em hsla(322, 11%, 20%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(225, 3%, 27%);
+      text-shadow:
+        0 0 1em hsla(323, 8%, 19%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 8%, 15%);
+      text-shadow:
+        0 0 1em hsla(315, 7%, 21%, 0.5),
+        0 0 0.125em hsla(315, 3%, 24%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(231, 13%, 19%);
+      text-shadow:
+        0 0 1em hsla(322, 11%, 19%, 0.2),
+        0 0 0.125em hsla(316, 8%, 26%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  */
+  
+  h2 {
+    margin: auto;
+    font-size: 3.5rem;
+    font-weight: 600;
+    
+    animation: lights 5s 750ms linear infinite;
+    font-family: "Poppins", serif;
+  }
